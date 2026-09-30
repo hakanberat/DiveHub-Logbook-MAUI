@@ -82,6 +82,7 @@ public partial class AddDiveViewModel : ObservableObject
         };
 
         await _database.SaveDiveAsync(dive);
-        await Shell.Current.GoToAsync("..");
+        
+        await Shell.Current.GoToAsync("//Logbook");
     }
 }

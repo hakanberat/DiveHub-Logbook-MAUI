@@ -174,17 +174,7 @@
 
                 </Border>
 
-                <!-- BUTTONS -->
-              <Button
-    Text="Add New Dive"
-    Style="{StaticResource PrimaryButtonStyle}"
-    Clicked="OnAddDiveClicked" />
-
-<Button
-    Text="View Logbook"
-    Style="{StaticResource SecondaryButtonStyle}"
-    Clicked="OnLogbookClicked"
-    Margin="0,0,0,20" />
+    
     
             </VerticalStackLayout>
 

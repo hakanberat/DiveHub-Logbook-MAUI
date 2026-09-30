@@ -21,13 +21,13 @@ public partial class DashboardPage : ContentPage
         await _viewModel.LoadAsync();
     }
 
-    private async void OnAddDiveClicked(object? sender, EventArgs e)
-    {
-        await Shell.Current.GoToAsync(nameof(AddDivePage));
-    }
+    private async void OnAddDiveClicked(object sender, EventArgs e)
+{
+    await Shell.Current.GoToAsync("//AddDive");
+}
 
-    private async void OnLogbookClicked(object? sender, EventArgs e)
-    {
-        await Shell.Current.GoToAsync(nameof(LogbookPage));
-    }
+   private async void OnLogbookClicked(object sender, EventArgs e)
+{
+    await Shell.Current.GoToAsync("//Logbook");
+}
 }
